@@ -145,7 +145,8 @@ section.content p{
 
 /* Create four equal columns that floats next to each other */
 .column {
-    float: left;
+    display: flex;
+    float: left !important;
     width: 25%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
@@ -160,5 +161,5 @@ section.content p{
 footer{
     margin: 5px;
     padding: 10px;
-    background-color: #26A9F4;
+    background-color: #26A9F4 !important;
 }
